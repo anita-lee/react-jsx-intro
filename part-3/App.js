@@ -1,9 +1,12 @@
+"use strict"
+
 function App() {
   return (
     <div>
-      <Person name="A" age={5} hobbies={["golf", "baseball"]} />
-      <Person name="B" age={52} hobbies={["golf", "baseball"]} />
-      <Person name="C" age={1} hobbies={["golf", "baseball"]} />
+      <Person name="Ana" age={5} hobbies={["golf", "baseball"]} />
+      <Person name="Belle" age={52} hobbies={["golf", "baseball"]} />
+      <Person name="12345678910" age={1} hobbies={["golf", "baseball"]} />
+      <AlertBtn />
     </div>
   );
 }

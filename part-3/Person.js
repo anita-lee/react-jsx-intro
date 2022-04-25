@@ -6,10 +6,10 @@ function Person({ name, age, hobbies }){
       <p>
         Learn some information about this person.
         <h3>
-          { name.length > 8 ? name.slice(0,6):name} { age > 18 ? "Please go vote!":"You must be 18."}
+          { name.length > 8 ? name.slice(0,6) : name}, { age > 18 ? "please go vote!" :"you must be 18."}
         </h3>
         <ol>
-          {hobbies.map(h => <li>{h}</li> )}
+          Hobbies: {hobbies.map(h => <li>{h}</li> )}
         </ol>
       </p>
     </div>
